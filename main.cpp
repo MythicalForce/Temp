@@ -15,9 +15,10 @@ void setup()
 
 void loop()
 {
-  // Working code when used normaly
   int x = random(virtualDisp->width());
   int y = random(virtualDisp->height());
+  
+  // Working code when used normaly
   //virtualDisp->drawPixelRGB888(x, y, random(255), random(255), random(255));
 
   // Trying to use the layer
