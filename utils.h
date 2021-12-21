@@ -1,3 +1,5 @@
+#pragma once
+
 #include <Arduino.h>
 
 unsigned long  _update;
